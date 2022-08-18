@@ -8,20 +8,24 @@
   <script defer src="./index.js"></script>
   <title>Decodificador</title>
 </head>
+
 <body>
+  
   <header>
     <img class="logo" src="./assets/img/Vector.png" alt="logo da alura">
   </header>
+  
   <main>
-    <textarea placeholder="Digite seu texto" name="" id="" cols="30" rows="7"></textarea>
+    <textarea placeholder="Digite seu texto" name="" id="mensagem" cols="30" rows="7"></textarea>
     
     <div class="btn__container">
       <div class="aviso">
         <img src="./assets/img/!.png" alt="atenção">
         <p>Apenas letras minúsculas e sem acento.</p>
       </div>
+
       <button onclick="sinal()" class="criptografar">Criptografar</button>
-      <button class="descriptografar">Descriptografar</button>
+      <button onclick="sinal()" class="descriptografar">Descriptografar</button>
     </div>
       
     <div class="texto__resultado">
@@ -30,9 +34,11 @@
         <h2>Nenhuma mensagem encontrada</h2>
         <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
       </div>
+      
       <button class="btn__copiar">Copiar</button>
     </div>
   </main>
+  
   <footer>
     <p>Desenvolvido por Bruno Felix</p>
     <!-- redes sociais -->
