@@ -35,4 +35,7 @@ function cript() {
   });
 
   console.log(resultado);
+
+  let result = document.querySelector('.texto__resultado')
+  result.innerHTML = '<p>resultado</p>'
 }
