@@ -40,6 +40,7 @@ textarea{
   color: #495057;
   opacity: 0.8;
   align-items: center;
+  margin-bottom: 16px;
 }
 .criptografar{
   width: 328px;
@@ -47,6 +48,8 @@ textarea{
   background: #0A3871;
   border-radius: 24px;
   color: #FFFFFF;
+  font-size: 16px;
+  line-height: 19px;
 }
 .descriptografar{
   width: 328px;
@@ -54,5 +57,16 @@ textarea{
   background: #D8DFE8;
   border: 1px solid #0A3871;
   border-radius: 24px;
+  color: #0A3871;
+  font-size: 16px;
+  line-height: 19px;
+}
+.btn__container{
+  position: absolute;
+  left: 240px;
+  top: 80%;
+}
+.circulo{
+  margin-bottom: 16px;
 }
   
