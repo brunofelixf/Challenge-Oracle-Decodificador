@@ -118,3 +118,9 @@ h2{
   color: #495057;
   padding-left: 50px;
 }
+footer{
+  position: absolute;
+  top: 95%;
+  left: 30vw;
+  /* background-color: #0A3871; */
+}
