@@ -3,6 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
 .logo{
   margin-top: 40px;
   margin-left: 84px;
@@ -18,11 +23,29 @@ textarea{
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 32px;
   line-height: 150%;
+  font-size: 32px;
   /* or 48px */
   color: #0A3871;
 }
 ::placeholder {
   color: #0A3871;
 }
+.aviso{
+  width: 252px;
+  height: 18px;
+  gap: 8px;
+  font-size: 12px;
+  display: flex;
+  color: #495057;
+  opacity: 0.8;
+  align-items: center;
+}
+button{
+  width: 328px;
+  height: 67px;
+  background: #0A3871;
+  border-radius: 24px;
+  color: #FFFFFF;
+}
+  
