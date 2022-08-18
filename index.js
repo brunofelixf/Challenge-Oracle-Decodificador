@@ -1,17 +1,38 @@
-function sinal() {
+document.querySelector('.criptografar').addEventListener('click',()=>{cript()})
+
+function cript() {
+  
   document.querySelector('.blc__img').style.display = 'none';
-}
 
-const msg = document.getElementById( 'mensagem');
+  const msg = document.getElementById( 'mensagem');
 
-msg.addEventListener('input', (e)=>{
-  let texto = e.target.value
-  texto = String(texto)
-  var resultado = texto.replace( /e/g, "enter");
-  // result = e.target.value.replace(/a/b, 'ai');
-  // result = e.target.value.replace(/i/b, 'imes');
-  // result = e.target.value.replace(/o/b, 'ober');
-  // result = e.target.value.replace(/u/b, 'ufat');
+  let texto = msg.value
+  let char = texto.split('');
+  var resultado ='';
+  
+  char.forEach(c => {
+    switch (c) {
+      case 'e':
+        resultado += 'enter';
+        break;
+      case 'a':
+        resultado += 'ai';
+        break;
+      case 'i':
+        resultado += 'imes';
+        break;
+      case 'o':
+        resultado += 'ober';
+        break;
+      case 'u':
+        resultado += 'ufat';
+        break;
+    
+      default:
+        resultado += c
+        break;
+    }
+  });
 
   console.log(resultado);
-})
+}
