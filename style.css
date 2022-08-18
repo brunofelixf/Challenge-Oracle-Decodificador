@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.logo{
+  margin-top: 40px;
+  margin-left: 84px;
+}
+textarea{
+  border: none;
+  margin-top: 80px;
+  margin-left: 240px;
+
+  width: 680px;
+  height: 288px;
+
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+  /* or 48px */
+  color: #0A3871;
+}
+::placeholder {
+  color: #0A3871;
+}
