@@ -1,5 +1,12 @@
 document.querySelector('.criptografar').addEventListener('click',()=>{cript()})
 document.querySelector('.descriptografar').addEventListener('click',()=>{descript()})
+document.querySelector('.btn__copiar').addEventListener('click', () =>{copiar()})
+
+// document.designMode = "on";
+
+// "permissions": [
+//   "clipboardRead"
+// ]
 
 function cript() {
   
@@ -62,4 +69,12 @@ function descript() {
 
   let result = document.querySelector('.texto__criptografado')
   result.innerHTML = resultado
+}
+
+function copiar(){
+  let textoCopiado = document.querySelector('.texto__criptografado');
+  let textoValor = textoCopiado.textContent;
+  console.log(textoValor);
+  // textoCopiado.select();
+  document.execCommand("copy");
 }
