@@ -46,7 +46,7 @@ function cript() {
   console.log(resultado);
 
   let result = document.querySelector('.texto__criptografado')
-  result.innerHTML = resultado
+  result.setAttribute("value", resultado)
 }
 
 function descript() {
@@ -68,13 +68,16 @@ function descript() {
   console.log(resultado);
 
   let result = document.querySelector('.texto__criptografado')
-  result.innerHTML = resultado
+  // result.select()
+  result.setAttribute("value", resultado)
 }
 
 function copiar(){
   let textoCopiado = document.querySelector('.texto__criptografado');
-  let textoValor = textoCopiado.textContent;
-  console.log(textoValor);
-  // textoCopiado.select();
+  // let textoCopiado = document.querySelector('.input');
+  // let textoValor = textoCopiado.textContent;
+  // let textoValor = textoCopiado.textContent
+  // console.log(textoValor);
+  textoCopiado.select();
   document.execCommand("copy");
 }
