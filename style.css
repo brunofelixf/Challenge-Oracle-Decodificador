@@ -20,16 +20,11 @@ textarea{
   background-color: #F3F5FC;
   margin-top: 80px;
   margin-left: 240px;
-
   width: 680px;
   height: 288px;
-
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
   font-weight: 400;
   line-height: 150%;
   font-size: 32px;
-  /* or 48px */
   color: #0A3871;
 }
 ::placeholder {
@@ -97,14 +92,11 @@ textarea{
   border-radius: 32px;
   display: flex;
   align-items: center;
-  /* justify-content: center; */
+
 } 
 h2{
   width: 336px;
   height: 58px;
-
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 120%;
@@ -116,32 +108,24 @@ h2{
   height: 48px;
   font-size: 16px;
   line-height: 150%;
-  /* text-align:center; */
+
   color: #495057;
   padding-left: 50px;
-  /* align-items: center; */
+
 }
 footer{
   position: absolute;
   top: 95%;
   left: 30vw;
-  /* background-color: #0A3871; */
 }
 .blc__img{
   display: flex;
   flex-direction: column;
-  /* background-color: #0A3871; */
-  /* align-self: center; */
 }
 .texto__criptografado{
-  /* width: 336px; */
-  /* left: 1032px; */
-  /* top: 72px; */
   font-size: 24px;
   line-height: 36px;
   color: #495057;
-  /* background-color: orange; */
-  /* position: relative; */
   align-self: flex-start;
   justify-self: flex-start;
   margin-left: 32px;
