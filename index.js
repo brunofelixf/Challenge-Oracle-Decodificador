@@ -45,8 +45,10 @@ function cript() {
 
   console.log(resultado);
 
-  let result = document.querySelector('.texto__criptografado')
-  result.setAttribute("value", resultado)
+  // let result = document.querySelector('.texto__criptografado')
+  let result = document.getElementById("texto__criptografado")
+  // result.setAttribute("value", resultado)
+  result.textContent = `${resultado}`;
 }
 
 function descript() {
@@ -67,13 +69,17 @@ function descript() {
 
   console.log(resultado);
 
-  let result = document.querySelector('.texto__criptografado')
+  // let result = document.querySelector('.texto__criptografado')
+  let result = document.getElementById("texto__criptografado")
   // result.select()
-  result.setAttribute("value", resultado)
+  // result.setAttribute("value", resultado)
+  result.textContent = `${resultado}`;
+  console.log(result)
 }
 
 function copiar(){
-  let textoCopiado = document.querySelector('.texto__criptografado');
+  // let textoCopiado = document.querySelector('.texto__criptografado');
+  let textoCopiado = document.getElementById("texto__criptografado");
   // let textoCopiado = document.querySelector('.input');
   // let textoValor = textoCopiado.textContent;
   // let textoValor = textoCopiado.textContent
