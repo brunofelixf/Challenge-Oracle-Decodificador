@@ -3,6 +3,7 @@ document.querySelector('.criptografar').addEventListener('click',()=>{cript()})
 function cript() {
   
   document.querySelector('.blc__img').style.display = 'none';
+  document.querySelector('.btn__copiar').style.visibility = 'visible';
 
   const msg = document.getElementById( 'mensagem');
 
