@@ -15,4 +15,4 @@ Sendo cedido apenas o Backlog no Trello e o Figma.
   <li>Git Flow</li>
   <li>Conventional Commits</li>
 
-  ![Decodificador](Challenge-1\assets\img\Challenge-1.jpg)
+  ![Tela](Challenge-1\assets\img\tela.png)
