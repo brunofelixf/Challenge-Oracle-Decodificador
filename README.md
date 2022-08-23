@@ -14,5 +14,6 @@ Sendo cedido apenas o Backlog no Trello e o Figma.
   <li>Kanban</li>
   <li>Git Flow</li>
   <li>Conventional Commits</li>
+<br/>
 
-  ![Tela](Challenge-1\assets\img\tela.png)
+  ![Tela](assets/img/tela.png)
